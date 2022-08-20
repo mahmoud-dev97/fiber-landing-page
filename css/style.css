@@ -1,0 +1,133 @@
+* {
+  --main-color: #4d13d1;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.btn {
+  background-color: var(--main-color) !important;
+  color: white;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: var(--main-color) !important;
+  color: white !important;
+}
+.btn:focus {
+  box-shadow: unset !important;
+  background-color: var(--main-color) !important;
+}
+
+#navandmain {
+  background-color: #fde3a752;
+}
+
+/* navbar */
+.navbar .active {
+  font-weight: 500;
+}
+
+/* main sec */
+#main {
+  justify-content: center;
+  align-items: center;
+}
+#main a {
+  color: var(--main-color);
+  font-weight: 600;
+}
+#main .btn {
+  padding: 20px 30px;
+}
+/* why sec */
+.why h5 {
+  color: var(--main-color);
+}
+
+/* pageimage sec */
+#pageimage {
+  background-color: var(--main-color);
+  align-items: center;
+  padding: 30px 30px 0 30px;
+  color: white;
+  border-radius: 10px;
+}
+#pageimage .btn {
+  background-color: white !important;
+  color: var(--main-color) !important;
+  padding: 20px 30px;
+  font-weight: bold;
+}
+#pageimage .btn:hover {
+  background-color: white !important;
+  color: var(--main-color) !important;
+}
+#pageimage .btn:focus {
+  box-shadow: unset !important;
+  background-color: white !important;
+}
+
+/* portfolio */
+#portfolio {
+  justify-content: space-between;
+}
+#portfolio .name {
+  color: var(--main-color);
+}
+#portfolio .btn {
+  background-color: white !important;
+  color: var(--main-color);
+  border: 1px solid rgb(206, 206, 206);
+  width: 100%;
+  padding: 15px 0;
+}
+#portfolio .btn:hover {
+  background-color: white !important;
+  color: var(--main-color) !important;
+}
+#portfolio .col-lg-3 {
+  border: 1px solid rgb(206, 206, 206);
+}
+
+/* footer */
+footer {
+  background-color: #fde3a752;
+}
+
+/* signup */
+#signup img {
+  width: 400px;
+  margin-bottom: 30px;
+}
+#signup .text-center {
+  background-color: var(--main-color);
+  color: white;
+  padding: 100px;
+}
+#signup .for {
+  padding: 50px 100px;
+}
+
+/* media */
+
+@media (min-width: 992px) {
+  #portfolio .col-lg-3 {
+    width: 31%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  #portfolio .col-lg-3 {
+    width: 47%;
+    margin-bottom: 40px !important;
+  }
+  #signup .w-50 {
+    width: 100% !important;
+  }
+}
+@media (max-width: 768px) {
+  #signup .w-50 {
+    width: 100% !important;
+    padding: 20px !important;
+  }
+}
